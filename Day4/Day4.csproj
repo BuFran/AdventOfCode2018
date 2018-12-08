@@ -47,11 +47,7 @@
     <None Include="input">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="TextFile1.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <None Include="inputtest" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
