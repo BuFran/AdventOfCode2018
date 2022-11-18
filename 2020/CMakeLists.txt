@@ -9,6 +9,7 @@ configure_file(day01.dat day01.dat COPYONLY)
 configure_file(day01.test day01.test COPYONLY)
 
 add_executable(day02 day02.cpp)
+add_executable(day02b day02b.cpp)
 configure_file(day02.dat day02.dat COPYONLY)
 configure_file(day02.test day02.test COPYONLY)
 
