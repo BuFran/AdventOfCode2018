@@ -3,11 +3,11 @@ project(2020)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(day01 day01.cpp)
+add_executable(day01a day01a.cpp)
+add_executable(day01b day01b.cpp)
 configure_file(day01.dat day01.dat COPYONLY)
 configure_file(day01.test day01.test COPYONLY)
 
-add_executable(day01 day01.cpp)
 add_executable(day02 day02.cpp)
 add_executable(day03 day03.cpp)
 add_executable(day04 day04.cpp)
