@@ -16,9 +16,10 @@ int main()
     string pwd;
     f >> min >> max >> letter >> dot >> pwd;
 
-    size_t n = count(pwd.begin(),pwd.end(), letter);
+    bool a = (min <= pwd.length()) && pwd[min-1] == letter;
+    bool b = (-max <= pwd.length()) && pwd[-max-1] == letter;
 
-    if ((n >= min) && (n <= -max))
+    if (a ^ b)
       c++;
   }
 
