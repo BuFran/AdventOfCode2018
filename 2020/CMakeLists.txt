@@ -14,6 +14,7 @@ configure_file(day02.dat day02.dat COPYONLY)
 configure_file(day02.test day02.test COPYONLY)
 
 add_executable(day03 day03.cpp)
+add_executable(day03b day03b.cpp)
 configure_file(day03.dat day03.dat COPYONLY)
 configure_file(day03.test day03.test COPYONLY)
 
